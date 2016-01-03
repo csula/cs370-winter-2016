@@ -2,9 +2,28 @@
 
 ## Course Overview
 
+- **Objective** Students will gain experience with parallel programming concept and engage in parallel application development.
+
 ## Logistics
 
+- **Instructor** John Tran
+- **Lecture** Tuesday 6:10 PM - 10:00 PM A309
+- **Office Hours** Tuesday 5:00 PM - 6:00 PM and online via [gitter](https://gitter.im/csula/cs370-winter-2016)
+- **Text Book** None.  All lecture notes will be provided.
+
 ## Learning Objectives
+
+### Mandatory
+* Overview of parallel programming models
+* Data hiearchy (cache)
+* Shared memory models (threads)
+* Message passing (MPI)
+* Streaming and data parallel (CUDA)
+* MapReduce (Hadoop)
+
+### Optional
+* Parallel algorithms 
+* Exotic parallel archictecture (quantum parallelism)
 
 ## Grading Allocation
 
@@ -31,8 +50,9 @@ Cheating on assignments and exams will not be tolerated. All parties involved wi
 
 ## Course Schedule
 
-* Lecture 1 (1/5/2016): 
-  * Reading Assignment: TBD
+* Lecture 1 (1/5/2016): Welcome and introduction to parallel computing.
+  * Hooman Mardokhi [Parallel Computing Explained](https://www.youtube.com/watch?v=q7sgzDH1cR8). This is simplified introduction to parallel computing.
+  * Blaise Barney [Introduction to Parallel Computing](https://computing.llnl.gov/tutorials/parallel_comp/)  This is a comprehensive overview of parallel computing.
 
 * Lecture 2 (1/12/2016): 
   * Reading Assignment: TBD
