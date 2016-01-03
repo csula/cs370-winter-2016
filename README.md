@@ -8,6 +8,16 @@ We will begin the course with an introduction to parallel and distributed comput
 
 This course is a blend between parallel computing theories and practical hands-on coding.  The programming exercises are self-contained and we do not assume any distributed computing experience on the part of the students.  However, students are expected to have programming and data structure experience.  Students will be assessed with exams and programming assignments.  There is no course project for this course.
 
+This is a tentative schedule for the course:
+
+* Week 1-2: Introduction to parallel machines and programming models
+* Week 2-4: Data locality and uniprocessor model
+* Week 4-5: Shared memory models (threads)
+* Week 5-6: Message passing models (MPI)
+* Week 6-8: Data Parallel (CUDA)
+* Week 9: MapReduce (Hadoop)
+* Week 10: Parallel algorithms (theoretical)
+
 ## Quick Links
 
 * Lecture 1: [Syllabus](Syllabus.md)
