@@ -23,7 +23,7 @@
 
 ### Optional
 * Parallel algorithms 
-* Exotic parallel archictecture (quantum parallelism)
+* Exotic parallel architecture (quantum parallelism)
 
 ## Grading Allocation
 
