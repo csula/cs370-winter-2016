@@ -6,7 +6,7 @@
 
 ## Logistics
 
-- **Instructor** John Tran
+- **Instructor** John Tran <johnjtran@icloud.com>
 - **Lecture** Tuesday 6:10 PM - 10:00 PM A309
 - **Office Hours** Tuesday 5:00 PM - 6:00 PM and online via [gitter](https://gitter.im/csula/cs370-winter-2016)
 - **Text Book** None.  All lecture notes will be provided.  For the most part, our lectures will be based on Blaise Barney's [Introduction to Parallel Computing](https://computing.llnl.gov/tutorials/parallel_comp/).
