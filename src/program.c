@@ -17,4 +17,6 @@ main(int argc, char *argv[])
   printf("z = %d\n", z);
   printf("k = %d\n", k);
   printf("M = %d\n", M);
+
+  return 0;
 }

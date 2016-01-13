@@ -23,4 +23,6 @@ main(int argc, char *argv[])
   for (int i = 0; i < N; i++) {
     printf("%d %d\n", i, array[i]);
   }
+
+  return 0;
 }
