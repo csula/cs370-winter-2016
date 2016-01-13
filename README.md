@@ -21,6 +21,7 @@ This is a tentative schedule for the course:
 ## Quick Links
 
 * Lecture 1: [Syllabus](Syllabus.md)
+* Lecture 2: [Introduction to Threads](notes/week2.md)
 
 ## Announcements
 

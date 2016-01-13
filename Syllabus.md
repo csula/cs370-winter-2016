@@ -53,8 +53,8 @@ Cheating on assignments and exams will not be tolerated. All parties involved wi
 * Lecture 1 (1/5/2016): Welcome and introduction to parallel computing.
   * Reading Assignment: Hooman Mardokhi [Parallel Computing Explained](https://www.youtube.com/watch?v=q7sgzDH1cR8). This is simplified introduction to parallel computing.
 
-* Lecture 2 (1/12/2016): 
-  * Reading Assignment: TBD
+* Lecture 2 (1/12/2016): Data Locality 
+  * Reading Assignment: 
 
 * Lecture 3 (1/19/2016): 
   * Reading Assignment: TBD
