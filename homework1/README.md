@@ -14,7 +14,6 @@ Let us assume that you have an array size _N_ filled with random integers from 0
 
 ```
 gcc -o program program.c 
-gcc -o thread-demo thread-demo.c
 ```
 
 To run on unix:
