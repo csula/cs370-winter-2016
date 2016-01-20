@@ -35,3 +35,15 @@ The homework grade will be graded as followed:
 * Completion: Everything works 8 pts
 * Discussion: I will ask you questions on your assignment 2 pt
 
+## Hints and Tips
+
+1. Start with a simple C program that can generate `N` random integers from 0 to `z`
+
+2. Modify the C program so that it searches the array sequentially and count the number of times the integer `k` appears
+
+3. Modify the C program so that you can partition the array into `M` partitions
+
+4. Figure out which thread is responsible for which partition, e.g. thread id, start, and end index (you can do this without coding)
+
+5. Write threaded routine to perform step 2 (from above)
+

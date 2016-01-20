@@ -1,5 +1,11 @@
 # Parallel and Distributed Programming
 
+As Moore’s Law approaches its end-of-life horizon, computer science must adapt, adopt and embrace the unavoidable necessity to explore parallel computing.  This course explores parallel programming paradigms and parallel computing architectures. It includes hands-on parallel programming assignments, contemporary and historical examples and their impact, context with parallel algorithms. 
+
+We will begin the course with an introduction to parallel and distributed computing, a  historical background on parallel computing, and a convincing motivation for parallel computing.  This is followed with data locality and optimization models for uniprocessor computing.  Our initial foray into parallel computing touches on concurrency vis-à-vis various thread models.  Next, we explore the three most popular parallel computing paradigms: message passing, data parallel, and MapReduce.  We wrap up the course by studying a few popular parallel algorithms.
+
+This course is a blend between parallel computing theories and practical hands-on coding.  The programming exercises are self-contained and we do not assume any distributed computing experience on the part of the students.  However, students are expected to have programming and data structure experience.  Students will be assessed with exams and programming assignments.  There is no course project for this course.
+
 ## Course Overview
 
 - **Objective** Students will gain experience with parallel programming concept and engage in parallel application development.
@@ -50,32 +56,13 @@ Cheating on assignments and exams will not be tolerated. All parties involved wi
 
 ## Course Schedule
 
-* Lecture 1 (1/5/2016): Welcome and introduction to parallel computing.
-  * Reading Assignment: Hooman Mardokhi [Parallel Computing Explained](https://www.youtube.com/watch?v=q7sgzDH1cR8). This is simplified introduction to parallel computing.
-
-* Lecture 2 (1/12/2016): Data Locality 
-  * Reading Assignment: 
-
-* Lecture 3 (1/19/2016): 
-  * Reading Assignment: TBD
-
+* Lecture 1 (1/5/2016): Welcome and introduction to parallel computing
+* Lecture 2 (1/12/2016): Concepts of parallel computing
+* Lecture 3 (1/19/2016): pThreads
 * Lecture 4 (1/26/2016): 
-  * Reading Assignment: TBD
-
 * Lecture 5 (2/2/2016): 
-  * Reading Assignment: TBD
-
 * Lecture 6 (2/9/2016): 
-  * Reading Assignment: TBD
-
 * Lecture 7 (2/16/2016): 
-  * Reading Assignment: TBD
-
 * Lecture 8 (2/23/2016): 
-  * Reading Assignment: TBD
-
 * Lecture 9 (3/1/2016): 
-  * Reading Assignment: TBD
-
 * Lecture 10 (3/8/2016): 
-  * Reading Assignment: TBD
