@@ -15,10 +15,14 @@ This is a tentative schedule for the course:
 ## Quick Links
 
 * Lecture 1: [Syllabus](Syllabus.md)
-* Lecture 2: [Introduction to Threads](notes/week2.md)
+* Lecture 2: [Introduction to Paralel Computing](notes/week2.md)
+* Lecture 3: [Introduction to threads](notes/week3.md)
+* Homework 1: [README.md](homework1/README.md)
 
 ## Announcements
 
 ### 1/19/2016 
 
-* No class today as I am on travel.  I have posted lecture 3 
+* No class today as I am on travel. Lecture notes have been posted.  Hints for homework 1 are also updated.
+
+
