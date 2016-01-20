@@ -17,7 +17,7 @@ This is a tentative schedule for the course:
 * Lecture 1: [Syllabus](Syllabus.md)
 * Lecture 2: [Introduction to Paralel Computing](notes/week2.md)
 * Lecture 3: [Introduction to threads](notes/week3.md)
-* Homework 1: [README.md](homework1/README.md)
+* [Homework 1](homework1/)
 
 ## Announcements
 
