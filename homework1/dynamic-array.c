@@ -16,7 +16,7 @@ main(int argc, char *argv[])
   printf("N = %d\n", N);
   printf("z = %d\n", z);
 
-  array = (int*) malloc(z * sizeof(int));
+  array = (int*) malloc(N * sizeof(int));
   for (int i = 0; i < N; i++) {
     array[i] = rand() % z;
   }
