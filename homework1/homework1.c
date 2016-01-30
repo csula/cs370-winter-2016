@@ -41,7 +41,7 @@ void* threadCount(void *arg)
   int left = 0; /* you figure it out */
   int right = 0; /* you figure it out */
 
-  tArg->count = countArray(tArg.array, left, right, tArg->k);
+  tArg->count = countArray(tArg->array, left, right, tArg->k);
 
   pthread_exit(NULL);
 }
