@@ -18,6 +18,7 @@ This is a tentative schedule for the course:
 * Lecture 2: [Introduction to Paralel Computing](notes/week2.md)
 * Lecture 3: [Introduction to threads](notes/week3.md)
 * [Homework 1](homework1/): Due 1/26/2016
+* Lecture 4: [Introduction to MPI](notes/week4.md)
 
 ## Announcements
 
@@ -26,3 +27,7 @@ This is a tentative schedule for the course:
 * No class today as I am on travel. Lecture notes have been posted.  Hints for homework 1 are also updated.
 
 * Note that homework 1 is due 1/26/2016.  You are encouraged to ask questions on gitter or you can come to my office hours.  I will be available at the Library first floor this Saturday from 1:00 PM to 2:30 PM.
+
+### 2/1/2016
+
+* Note that I will not be attending class 2/9/2016.  However, Misha will be walking you through an MPI lab.  This lab is not graded but I recommend that you attend class and get the exercise to work.  We will be using [Vagrant](http://vagrantup.com) and [VirtualBox](http://virtualbox.org).  To maximize your experience with Misha, please have these software installed ahead of time.
