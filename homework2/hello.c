@@ -3,31 +3,27 @@
 #include <time.h>
 #include <mpi.h>
 
-int printTime()
+char* getCurrentTime()
 {
   time_t current_time;
-  char* c_time_string;
-
   current_time = time(NULL);
 
   if (current_time == ((time_t)-1)) {
     fprintf(stderr, "Failure to obtain the current time.\n");
-    return EXIT_FAILURE;
+    return NULL;
   }
 
-  c_time_string = ctime(&current_time);
+  char *c_time_string = ctime(&current_time);
 
   if (c_time_string == NULL) {
     fprintf(stderr, "Failure to convert the current time.\n");
-    return EXIT_FAILURE;
+    return NULL;
   }
 
-  printf("Current time is %s", c_time_string);
-
-  return EXIT_SUCCESS;
+  return c_time_string;
 }
 
-int main(int argc, char** argv) 
+int main(int argc, char** argv)
 {
   // Initialize the MPI environment
   MPI_Init(NULL, NULL);
@@ -45,16 +41,14 @@ int main(int argc, char** argv)
   int name_len;
   MPI_Get_processor_name(processor_name, &name_len);
 
-  printTime();
-
   // Print off a hello world message
-  printf("Hello world from processor %s, rank %d"
-         " out of %d processors\n",
-         processor_name, world_rank, world_size);
+  printf("Hello from processor %s"
+         " // rank %d out of %d processors"
+				 " // time: %s",
+				 processor_name, world_rank, world_size, getCurrentTime());
 
   // Finalize the MPI environment.
   MPI_Finalize();
 
   return 0;
 }
-

@@ -3,7 +3,7 @@
 #include <time.h>
 #include <mpi.h>
 
-int main(int argc, char** argv) 
+int main(int argc, char** argv)
 {
   MPI_Status status;
 
@@ -39,7 +39,6 @@ int main(int argc, char** argv)
     N = N + 1;
     MPI_Send(&N, 1, MPI_INT, right, 0, MPI_COMM_WORLD);
   }
-
 
   // Finalize the MPI environment.
   MPI_Finalize();
