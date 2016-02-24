@@ -17,7 +17,7 @@ Write a parallel program (i.e. modify `homework2.c`) to compute the following st
 
 * Mean - average of all of the grid points
 * Sum - cumulative values of all grid points
-* Max/Min - grid with the highest/lowest value
+* Max/Min - highest/lowest value for the entire dataset
 * Std - standard deviation
 
 ## Build and run
