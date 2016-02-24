@@ -44,8 +44,8 @@ int main(int argc, char** argv)
   // Print off a hello world message
   printf("Hello from processor %s"
          " // rank %d out of %d processors"
-				 " // time: %s",
-				 processor_name, world_rank, world_size, getCurrentTime());
+         " // time: %s",
+         processor_name, world_rank, world_size, getCurrentTime());
 
   // Finalize the MPI environment.
   MPI_Finalize();
