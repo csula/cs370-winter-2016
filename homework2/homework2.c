@@ -112,7 +112,7 @@ void doManager(int n, int z, int seed)
 
   printf("[%s.%d] manager started\n", processor_name, my_rank);
   // begin parallel code; fill in the missing code here
-  double mean = 0.0, std = 0.0, max = 0.0, min = 0.0;
+  double mean = 0.0, sum = 0.0, std = 0.0, max = 0.0, min = 0.0;
 
   // end parallel code; no more code change required
   printf("[%s.%d] manager completed\n", processor_name, my_rank);
@@ -120,7 +120,7 @@ void doManager(int n, int z, int seed)
   sleep(1);
   printArray(matrix, n);
   printf("N    = %d\n", N);
-  printf("sum  = %g %g\n", std, calcSum(matrix, N));
+  printf("sum  = %g %g\n", sum, calcSum(matrix, N));
   printf("mean = %g %g\n", mean, calcMean(matrix, N));
   printf("std  = %g %g\n", std, calcStd(matrix, N));
   printf("max  = %g %g\n", max, findMax(matrix, N));
