@@ -54,15 +54,4 @@ Reasonable accommodation will be provided to any student who is registered with 
 
 Cheating on assignments and exams will not be tolerated. All parties involved will receive a grade of **F** for the course and be reported to the Computer Science Department.
 
-## Course Schedule
 
-* Lecture 1 (1/5/2016): Welcome and introduction to parallel computing
-* Lecture 2 (1/12/2016): Concepts of parallel computing
-* Lecture 3 (1/19/2016): pThreads
-* Lecture 4 (1/26/2016): 
-* Lecture 5 (2/2/2016): 
-* Lecture 6 (2/9/2016): 
-* Lecture 7 (2/16/2016): 
-* Lecture 8 (2/23/2016): 
-* Lecture 9 (3/1/2016): 
-* Lecture 10 (3/8/2016): 
