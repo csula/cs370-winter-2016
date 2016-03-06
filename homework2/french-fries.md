@@ -21,7 +21,7 @@ These are header files that tell the compiler what are the functions that are av
 
 ## Variable and Function Definition
 
-These variables are declared at the topic of the program but are not shared between MPI processors.
+These variables are declared at the top of the program but are not shared between MPI processors.
 
 ```
 int world_size;
