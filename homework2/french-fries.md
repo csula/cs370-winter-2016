@@ -171,7 +171,7 @@ void doWorker()
   MPI_Recv(&n, 1, MPI_INT, master_id, 0, MPI_COMM_WORLD, &status);
 
   // worker must allocate private array (i.e. where to put data when receiving)
-  int *array = (int*)malloc(sizeof(int) * n);
+  int *array = (int*) malloc(sizeof(int) * n);
 
   // receive subarray from boss
   MPI_Recv(array, n, MPI_INT, master_id, 0, MPI_COMM_WORLD, &status);
