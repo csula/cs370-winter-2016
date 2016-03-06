@@ -88,7 +88,7 @@ The boss processor's function below does the following:
 * Assign a random variable to each of the elements
 * Each worker has equal work load if `N_size % worker_count == 0`
 * Otherwise workers `1` to `worker_count - 1 ` has one `sub_array_size` and worker `worker_count` has a different partition size
-* Sends the sub partition to the workers
+* Send the sub partition to the workers
 * Get back the results from each of the workers and print them
 
 ```
