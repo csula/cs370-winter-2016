@@ -110,7 +110,7 @@ void doBoss()
   int start, worker_id, worker_count = world_size - 1;
 
   if (N_size % worker_count == 0) {
-    int sub_array_size = N_size/(worker_count);
+    int sub_array_size = N_size/worker_count;
     for (i = 0; i < worker_count; i++) {
       worker_id = i + 1;
       start = i * sub_array_size;
