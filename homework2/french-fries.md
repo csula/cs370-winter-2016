@@ -4,7 +4,7 @@ Let's do a simple example with the following rule:
 
 * A manager processor has an array of size N and is filled with random values.  
 * The manager splits up the array into N portions (or subarrays) and sends the subarrays to each of the worker processors.
-* Each worker processor would receive its subarray, count up the number of odd elements in the subarray and send the results back to the manager.
+* Each worker processor would receive its subarray, count up the number of odd elements in the subarray and send the result back to the manager.
 * The manager receives the results from all of its workers and print out the total number of odd elements in the array.
 
 ## Include files and dependencies
