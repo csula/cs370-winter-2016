@@ -1,6 +1,6 @@
 # French Fries
 
-Let's do a simple example with the following rule:
+Let's do a simple example as followed:
 
 * A manager processor has an array of size N and is filled with random values.  
 * The manager splits up the array into N portions (or subarrays) and sends the subarrays to each of the worker processors.
